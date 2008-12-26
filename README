@@ -1,0 +1,100 @@
+emotion
+------------------------------------------
+Enlightenment multimedia library
+
+Runtime requirements:
+  cygwin-1.5.25-15
+  libecore0-0.9.9.050-1
+  libedje0-0.9.9.050-1
+  libevas0-0.9.9.050-1
+(gstreamer)
+  libgstreamer0.10_0-0.10.21-2
+  gstreamer010-plugins-a52dec
+  gstreamer010-plugins-base
+  gstreamer010-plugins-cdio
+  gstreamer010-plugins-good
+  gstreamer010-plugins-mpeg2dec
+  gstreamer010-plugins-oss
+  gstreamer010-plugins-ugly
+  gstreamer010-plugins-ximage
+(xine)
+  libxine1-1.1.15-2
+  libxine1-x11
+
+Build requirements:
+(besides corresponding -devel packages)
+  autoconf2.5-2.63-1
+  automake1.10-1.10.1-2
+  binutils-20080624-2
+  cygport-0.4.3-1
+  gawk-3.1.6-1
+  gcc-core-3.4.4-3
+  libtool-2.2.6a-1
+  make-3.81-1
+  pkg-config-0.23a-2
+  sed-4.1.5-2
+
+Canonical website:
+  http://www.enlightenment.org/
+
+Canonical download:
+  http://download.enlightenment.org/snapshots/
+
+-------------------------------------------
+
+Build instructions:
+  unpack emotion-0.1.0.042-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./emotion-0.1.0.042-X.cygport all
+
+This will create:
+  /usr/src/emotion-0.1.0.042-X-src.tar.bz2
+  /usr/src/emotion-0.1.0.042-X.tar.bz2
+  /usr/src/libemotion-devel-0.1.0.042-X.tar.bz2
+  /usr/src/libemotion0-gstreamer-0.1.0.042-X.tar.bz2
+  /usr/src/libemotion0-xine-0.1.0.042-X.tar.bz2
+  /usr/src/libemotion0-0.1.0.042-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary packages:
+
+(emotion)
+  /usr/bin/emotion_test.exe
+  /usr/share/doc/emotion-0.1.0.042/AUTHORS
+  /usr/share/doc/emotion-0.1.0.042/COPYING
+  /usr/share/doc/emotion-0.1.0.042/ChangeLog
+  /usr/share/doc/emotion-0.1.0.042/INSTALL
+  /usr/share/doc/emotion-0.1.0.042/README
+  /usr/share/doc/emotion-0.1.0.042/TODO
+  /usr/share/emotion/data/theme.edj
+
+(libemotion0)
+  /usr/bin/cygemotion-0.dll
+
+(libemotion0-gstreamer)
+  /usr/lib/emotion/gstreamer.dll
+  /usr/lib/emotion/gstreamer.la
+
+(libemotion0-xine)
+  /usr/lib/emotion/xine.dll
+  /usr/lib/emotion/xine.la
+
+(libemotion-devel)
+  /usr/include/enlightenment/Emotion.h
+  /usr/lib/libemotion.dll.a
+  /usr/lib/libemotion.la
+  /usr/lib/pkgconfig/emotion.pc
+
+------------------
+
+Port Notes:
+
+----- version 0.1.0.042-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/

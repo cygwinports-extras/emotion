@@ -1,0 +1,5 @@
+category: Audio Video
+requires: cygwin libecore0 libemotion0 libglib2.0_0 libgstreamer0.10_0 gstreamer010-plugins-a52dec gstreamer010-plugins-base gstreamer010-plugins-cdio gstreamer010-plugins-good gstreamer010-plugins-mpeg2dec gstreamer010-plugins-oss gstreamer010-plugins-ugly gstreamer010-plugins-ximage
+external-source: emotion
+sdesc: "Enlightenment multimedia library (GStreamer backend)"
+ldesc: "Enlightenment multimedia library"
