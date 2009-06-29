@@ -1,5 +1,5 @@
 category: Audio Video
-requires: cygwin libecore0 libemotion0 libxine1 libxine1-x11
+requires: libecore0 libemotion0 libxine1 libxine1-x11
 external-source: emotion
 sdesc: "Enlightenment multimedia library (Xine backend)"
 ldesc: "Enlightenment multimedia library"

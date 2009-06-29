@@ -1,4 +1,4 @@
 category: Audio Video
-requires: cygwin libecore0 libedje0 libemotion0 libevas0
+requires: libecore0 libedje0 libemotion0 libevas0
 sdesc: "Enlightenment multimedia library (apps)"
 ldesc: "Enlightenment multimedia library"

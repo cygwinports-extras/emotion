@@ -1,5 +1,5 @@
 category: Audio Video
-requires: cygwin libecore0 libevas0
+requires: libecore0 libevas0
 external-source: emotion
 sdesc: "Enlightenment multimedia library (runtime)"
 ldesc: "Enlightenment multimedia library"
