@@ -1,5 +1,0 @@
-category: Audio Video
-requires: libecore0 libevas0
-external-source: emotion
-sdesc: "Enlightenment multimedia library (runtime)"
-ldesc: "Enlightenment multimedia library"

@@ -1,0 +1,11 @@
+--- origsrc/emotion-1.7.0/src/modules/gstreamer/emotion_sink.c	2012-08-01 03:59:15.000000000 -0500
++++ src/emotion-1.7.0/src/modules/gstreamer/emotion_sink.c	2012-09-10 01:27:58.467265800 -0500
+@@ -1149,7 +1149,7 @@ gstreamer_video_sink_new(Emotion_Gstream
+ 
+ 	       ecore_x_netwm_window_state_set(win, state, 2);
+ 	       ecore_x_window_hide(win);
+-	       xvsink = gst_element_factory_make("xvimagesink", NULL);
++	       xvsink = gst_element_factory_make("ximagesink", NULL);
+ 	       if (xvsink)
+ 		 {
+ 		   unsigned int pos[2];
