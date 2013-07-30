@@ -1,17 +1,19 @@
 NAME="emotion"
-VERSION=1.7.4
+VERSION=1.7.7
 RELEASE=1
-CATEGORY="X11"
-SUMMARY="Enlightenment thumbnailing library"
+CATEGORY="Libs"
+SUMMARY="Enlightenment audio/video library"
 DESCRIPTION="Emotion is a video (and audio) codec playback library that acts
 as a front-end to libxine or gstreamer (or something else more generic) that
 provides and evas object as a control object and video output point. It makes
 using video APIs much simpler and easier while it's at it."
 HOMEPAGE="http://www.enlightenment.org/"
-SRC_URI="http://download.enlightenment.org/releases/${P}.tar.bz2"
+SRC_URI="http://download.enlightenment.org/releases/${NAME}-${VERSION}.tar.bz2"
 PATCH_URI="01-no-xv.patch"
 
-PKG_NAMES="${PN} libemotion1 libemotion-devel"
+PKG_NAMES="${NAME} libemotion1 libemotion-devel"
+emotion_CATEGORY="Video"
+emotion_SUMMARY=${SUMMARY/library/utilities}
 emotion_CONTENTS="usr/bin/*.exe usr/share/doc/"
 libemotion1_REQUIRES="gstreamer0.10-plugins-base gstreamer0.10-plugins-good gstreamer0.10-plugins-ximage"
 libemotion1_CONTENTS="usr/bin/*-1.dll usr/lib/edje/ usr/lib/emotion/ usr/share/emotion/"
